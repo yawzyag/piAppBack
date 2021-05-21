@@ -1,0 +1,25 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Pizza {
+  """unique id"""
+  id: Int!
+
+  """name of pizza"""
+  name: String
+
+  """ingridients"""
+  ingredients: String!
+
+  """cost"""
+  pizzaCost: Int!
+}
+
+type Query {
+  pizzaDefault: [Pizza!]!
+}
+
+type Subscription {
+  pizzaDefault: [Pizza!]!
+}
